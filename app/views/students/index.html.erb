@@ -1,6 +1,10 @@
 <h1>Students</h1>
 <ul>
 <% @students.each do |student| %>
+<<<<<<< HEAD
   <li><%= link_to student.to_s, student_path(@student) %></li>
+=======
+  <li><%= link_to student.to_s, student_path(student) %></li>
+>>>>>>> 3735e1dc1dc7747bc9be27cd1801f866b86dcb68
 <% end %>
 </ul>

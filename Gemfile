@@ -25,8 +25,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bundler', '~> 1.16', '>= 1.16.1'
 
+<<<<<<< HEAD
 gem 'pry'
 
+=======
+>>>>>>> 3735e1dc1dc7747bc9be27cd1801f866b86dcb68
 group :development, :test do
   gem 'byebug'
   gem 'spring'

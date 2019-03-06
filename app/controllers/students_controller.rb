@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'pry'
 
 class StudentsController < ApplicationController
@@ -8,6 +9,16 @@ class StudentsController < ApplicationController
 
   def new
     @student = Student.new
+=======
+class StudentsController < ApplicationController
+
+  def index
+    @students = Student.all
+  end
+
+  def new
+    @students = Student.new
+>>>>>>> 3735e1dc1dc7747bc9be27cd1801f866b86dcb68
   end
 
   def create
@@ -17,7 +28,11 @@ class StudentsController < ApplicationController
   end
 
   def show
+<<<<<<< HEAD
     @student = Student.find(params[:id])
+=======
+    @students = Student.find(params[:id])
+>>>>>>> 3735e1dc1dc7747bc9be27cd1801f866b86dcb68
   end
 
   def edit

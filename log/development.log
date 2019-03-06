@@ -53,6 +53,7 @@ Migrating to CreateSchoolClasses (20190305194844)
   [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20190305194844"]]
   [1m[36m (3.6ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+<<<<<<< HEAD
 
 
 Started GET "/" for 207.38.244.205 at 2019-03-05 22:13:34 +0000
@@ -142,3 +143,5 @@ Processing by SchoolClassesController#show as HTML
   [1m[36mSchoolClass Load (0.2ms)[0m  [1mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT 1[0m  [["id", 1]]
   Rendered school_classes/show.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+=======
+>>>>>>> 3735e1dc1dc7747bc9be27cd1801f866b86dcb68

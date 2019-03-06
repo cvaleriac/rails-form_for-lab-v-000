@@ -1,8 +1,18 @@
 <h1>Edit Student</h1>
+<<<<<<< HEAD
 <%= form_for(@student) do |f| %>
   <%= f.label :first_name %>
   <%= f.text_field :first_name %>
   <%= f.label :last_name %>
   <%= f.number_field :last_name %>
+=======
+<%= form_for @student do |f| %>
+  <%= f.label :first_name %>
+  <%= f.text_field :first_name %>
+
+  <%= f.label :last_name %>
+  <%= f.text_field :last_name %>
+
+>>>>>>> 3735e1dc1dc7747bc9be27cd1801f866b86dcb68
   <%= f.submit %>
 <% end %>
